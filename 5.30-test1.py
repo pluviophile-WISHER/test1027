@@ -29,7 +29,7 @@ if uploaded_file is not None:
 st.header(" 方法2：读取固定路径的Excel文件")
  
 # 在这里设置你的固定文件路径（示例路径，请替换成你的实际路径）
-fixed_file_path = r"C:\Users\Administrator\Desktop\PH.xlsx"
+fixed_file_path = "PH.xlsx"
  
 if st.button(" 读取固定路径的文件"):
     try:
@@ -55,4 +55,5 @@ st.markdown("""
 ### 使用说明 
 - **方法1**：直接上传Excel文件（支持.xlsx和.xls格式）
 - **方法2**：读取代码中预设路径的Excel文件（请确保路径正确）
+
 """)
